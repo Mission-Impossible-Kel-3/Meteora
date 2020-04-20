@@ -1,0 +1,19 @@
+<View>
+  <Header value="Select Region"/>
+  <Choices name="choice" toName="audio" choice="multiple">
+    <Choice value="Aceh" />
+    <Choice value="Jawa Barat" />
+    <Choice value="Jawa Tengah" />
+  </Choices>
+
+  <Header value="Select sounds"/>
+  <Labels name="label" toName="audio" choice="multiple">
+    <Label value="Beat" background="gray"/>
+    <Label value="Voice" background="red"/>
+    <Label value="Guitar" background="blue"/>
+    <Label value="Other"/>
+  </Labels>
+
+  <Header value="Listen to the audio"/>
+  <AudioPlus name="audio" value="$url"/>
+</View>

@@ -1,0 +1,16 @@
+{
+  "1": {
+    "id": 1,
+    "task_path": "/media/reyrizki/DATA/Programming/Song Labeling/audio/000.mp3",
+    "data": {
+      "url": "http://localhost:8200/data/000.mp3?d=%2Fmedia%2Freyrizki%2FDATA%2FProgramming%2FSong+Labeling%2Faudio"
+    }
+  },
+  "2": {
+    "id": 2,
+    "task_path": "/media/reyrizki/DATA/Programming/Song Labeling/audio/001.mp3",
+    "data": {
+      "url": "http://localhost:8200/data/001.mp3?d=%2Fmedia%2Freyrizki%2FDATA%2FProgramming%2FSong+Labeling%2Faudio"
+    }
+  }
+}
