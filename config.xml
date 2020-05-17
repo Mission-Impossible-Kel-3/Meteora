@@ -1,19 +1,392 @@
 <View>
-  <Header value="Select Region"/>
-  <Choices name="choice" toName="audio" choice="multiple">
-    <Choice value="Aceh" />
+
+
+
+  <Header value="Daerah"/>
+
+
+
+  <Choices name="choice" toName="provinsi" choice="multiple">
+
+
+
+    <Choice value="Nanggroe Aceh Darussalam" />
+
+
+
+    <Choice value="Sumatera Utara" />
+
+
+
+    <Choice value="Sumatera Barat" />
+
+
+
+    <Choice value="Kepulauan Riau" />
+
+
+
+    <Choice value="Jambi" />
+
+
+
+    <Choice value="Sumatera Selatan" />
+
+
+
+    <Choice value="Kepulauan Bangka Belitung" />
+
+
+
+    <Choice value="Bengkulu" />
+
+
+
+    <Choice value="Lampung" />
+
+
+
+    <Choice value="Banten" />
+
+
+
+    <Choice value="DKI Jakarta" />
+
+
+
     <Choice value="Jawa Barat" />
+
+
+
     <Choice value="Jawa Tengah" />
+
+
+
+    <Choice value="Daerah Istimewa Yogyakarta" />
+
+
+
+    <Choice value="Jawa Timur" />
+
+
+
+    <Choice value="Bali" />
+
+
+
+    <Choice value="Nusa Tenggara Timur" />
+
+
+
+    <Choice value="Kalimantan barat" />
+
+
+
+    <Choice value="Kalimantan Tengah" />
+
+
+
+    <Choice value="Kalimantan Selatan" />
+
+
+
+    <Choice value="Kalimantan Timur" />
+
+
+
+    <Choice value="Kalimantan Utara" />
+
+
+
+    <Choice value="Sulawesi Utara" />
+
+
+
+    <Choice value="Sulawesi Barat" />
+
+
+
+    <Choice value="Sulawesi Tengah" />
+
+
+
+    <Choice value="Sulawesi Tenggara" />
+
+
+
+    <Choice value="Sulawesi Selatan" />
+
+
+
+    <Choice value="Gorontalo" />
+
+
+
+    <Choice value="Maluku" />
+
+
+
+    <Choice value="Maluku Utara" />
+
+
+
+    <Choice value="Papua Barat" />
+
+
+
+    <Choice value="Papua" />
+
+
+
   </Choices>
 
-  <Header value="Select sounds"/>
-  <Labels name="label" toName="audio" choice="multiple">
-    <Label value="Beat" background="gray"/>
-    <Label value="Voice" background="red"/>
-    <Label value="Guitar" background="blue"/>
-    <Label value="Other"/>
+
+
+
+
+
+
+  <Header value="Alat Musik"/>
+
+
+
+  <Labels name="label" toName="alatMusik" choice="multiple">
+
+
+
+    <Label value="Serune Kale" />
+
+
+
+    <Label value="Aramba" />
+
+
+
+    <Label value="Saluang" />
+
+
+
+    <Label value="Gambus"/>
+
+
+
+    <Label value="Serangko"/>
+
+
+
+    <Label value="Accordion"/>
+
+
+
+    <Label value="Doll"/>
+
+
+
+    <Label value="Bende"/>
+
+
+
+    <Label value="Gendang Melayu"/>
+
+
+
+    <Label value="Gendang Panjang"/>
+
+
+
+    <Label value="Tehyan"/>
+
+
+
+    <Label value="Angklung"/>
+
+
+
+    <Label value="Gamelan"/>
+
+
+
+    <Label value="Gendang ( Ideofon )"/>
+
+
+
+    <Label value="Bonang"/>
+
+
+
+    <Label value="Gendang ( Membranofon )"/>
+
+
+
+    <Label value="Gengceng"/>
+
+
+
+    <Label value="Serunai"/>
+
+
+
+    <Label value="Sasando"/>
+
+
+
+    <Label value="Japen"/>
+
+
+
+    <Label value="Sampe"/>
+
+
+
+    <Label value="Tuma"/>
+
+
+
+    <Label value="Panting"/>
+
+
+
+    <Label value="Kolintang"/>
+
+
+
+    <Label value="Ganda"/>
+
+
+
+    <Label value="Keso"/>
+
+
+
+    <Label value="Lado Lado"/>
+
+
+
+    <Label value="Kecapi"/>
+
+
+
+    <Label value="Nafiri"/>
+
+
+
+    <Label value="FU"/>
+
+
+
+    <Label value="Kendang"/>
+
+
+
+    <Label value="Tifa"/>
+
+
+
+    <Label value="Guoto"/>
+
+
+
+    <Label value="Kulanter"/>
+
+
+
+    <Label value="Gong"/>
+
+
+
+    <Label value="Jengglong"/>
+
+
+
+    <Label value="Rebab"/>
+
+
+
+    <Label value="Talempong"/>
+
+
+
+    <Label value="Pupuik Batang Padi"/>
+
+
+
+    <Label value="Tambua Tansa"/>
+
+
+
+    <Label value="Burdah"/>
+
+
+
+    <Label value="Tenun"/>
+
+
+
+    <Label value="Kenong Basemah"/>
+
+
+
+    <Label value="Tebangan"/>
+
+
+
+    <Label value="Genggong"/>
+
+
+
+    <Label value="Caklemong"/>
+
+
+
+    <Label value="Gambangan"/>
+
+
+
+    <Label value="Kompang"/>
+
+
+
+    <Label value="Gitar"/>
+
+
+
+    <Label value="Drum"/>
+
+
+
+    <Label value="Bass"/>
+
+
+
+    <Label value="Vokal"/>
+
+
+
+  	<Label value="Other"/>  
+
+
+
+    
+
+
+
   </Labels>
 
+
+
+
+
+
+
   <Header value="Listen to the audio"/>
+
+
+
   <AudioPlus name="audio" value="$url"/>
+
+
+
 </View>
+
+
+
