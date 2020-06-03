@@ -1,19 +1,22 @@
 $(document).ready(function () {
     $('#example').DataTable({
-        "ajax": "../JSON files/test2.json",
+        "ajax": "../JSON files/regionalSongData.json",
         "columns": [
             {
-                "data": "staff",
-                "render": function(data, type, row, meta)
+                "data": "video",
+                "render": function (data, type, row, meta) 
                 {
-                    return '<a href="' + data.link + '" target="_blank">' + data.name + '<a/>';
+                    return '<a href="' + data.url + '" target="_blank">' + data.title + '<a/>';
                 }
             },
-            { "data": "position" },
-            { "data": "office" },
-            { "data": "extn" },
-            { "data": "start_date" },
-            { "data": "salary" }
+            {
+                "data": "channel",
+                "render": function (data, type, row, meta) 
+                {
+                    return '<a href="' + data.url + '" target="_blank">' + data.name + '<a/>';
+                }
+            },
+            { "data": "regions" }
         ]
     });
 });

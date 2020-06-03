@@ -1,0 +1,44 @@
+{
+    "data":
+    [
+        {
+            "video":
+            {
+                "title": "Manuk Dadali - Lagu Daerah Jawa Barat (Karaoke, Lirik dan Terjemahan)",
+                "url": "https://www.youtube.com/watch?v=LcghTxm-Qno"
+            },
+            "channel":
+            {
+                "name":"Lagu Daerah Indonesia",
+                "url":"https://www.youtube.com/channel/UC1OqnHsb4ruhMdOV639I7aw"
+            },
+            "regions": ["Jawa Barat", "Jawa Timur"]
+        },
+        {
+            "video":
+            {
+                "title": "Ampar Ampar Pisang | Lagu Daerah Kalimantan Selatan | Budaya Indonesia | Dongeng Kita",
+                "url": "https://www.youtube.com/watch?v=BnBTFaHvI6I"
+            },
+            "channel":
+            {
+                "name":"Dongeng Kita",
+                "url":"https://www.youtube.com/channel/UCaMrqakJglh9VQItR50pQwA"
+            },
+            "regions": ["Kalimantan Selatan"]
+        },
+        {
+            "video":
+            {
+                "title": "APUSE | Lagu Daerah Papua | Budaya Indonesia | Dongeng Kita",
+                "url": "https://www.youtube.com/watch?v=VlyDN-yQMuk"
+            },
+            "channel":
+            {
+                "name":"Dongeng Kita",
+                "url":"https://www.youtube.com/channel/UCaMrqakJglh9VQItR50pQwA"
+            },
+            "regions": ["Papua"]
+        }
+    ]
+}
