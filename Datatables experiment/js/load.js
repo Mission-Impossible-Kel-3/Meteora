@@ -14,9 +14,4 @@ $(document).ready(function()
             $("#songTableBody").append("</tr>");
         });
     })
-    .done(function()
-    {
-        console.log("done");
-        $('#songTable').DataTable();
-    });
 });
