@@ -23,7 +23,7 @@ $(document).ready(function ()
                 "data": "regions" 
             },
             {
-                "data": "anotationDate",
+                "data": "annotationDate",
                 "render": function(data, type, row, meta)
                 {
                     var dateSplit = data.split('-');
