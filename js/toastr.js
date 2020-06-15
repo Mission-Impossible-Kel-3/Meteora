@@ -6,7 +6,7 @@ $(document).ready(function () {
             position: 'top-right',
             loaderBg: '#ff6849',
             icon: 'info',
-            hideAfter: 3000,
+            hideAfter: 8000,
             stack: 6
         });
 
