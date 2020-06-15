@@ -1,6 +1,6 @@
 $(document).ready(function () {
     
-    $.getJSON("../regionalSongData.json", function (data) 
+    $.getJSON("https://mission-impossible-kel-3.github.io/Meteora/regionalSongData.json", function (data) 
     {
         var regionStatistic = [];
         var channelStatistic = [];
