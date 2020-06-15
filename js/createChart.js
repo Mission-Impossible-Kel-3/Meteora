@@ -1,6 +1,6 @@
 $(document).ready(function () {
     
-    $.getJSON("../JSON files/regionalSongData.json", function (data) 
+    $.getJSON("../regionalSongData.json", function (data) 
     {
         var regionStatistic = [];
         var channelStatistic = [];
