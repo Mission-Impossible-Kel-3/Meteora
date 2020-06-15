@@ -2,7 +2,7 @@ $(document).ready(function ()
 {
     $('#example').DataTable(
     {
-        "ajax": "../JSON files/regionalSongData.json",
+        "ajax": "https://mission-impossible-kel-3.github.io/Meteora/JSON%20files/regionalSongData.json",
         "columns":
         [
             {
