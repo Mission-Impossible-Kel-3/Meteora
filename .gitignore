@@ -1,5 +1,4 @@
 .vscode/
 *.zip
-scraping
-Datatables\ experiment/
-Get\ JSON/
+scraping/
+Chart Experiment/
