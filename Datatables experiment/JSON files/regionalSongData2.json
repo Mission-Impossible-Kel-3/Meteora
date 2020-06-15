@@ -1,0 +1,47 @@
+{
+    "data":
+    [
+        {
+            "video": 
+            {
+                "title": "#Lagu Daerah indonesia timu#",
+                "url": "https://www.youtube.com/watch?v=3Fjfq3mYYis"
+            },
+            "channel":
+            {
+                "name":"Lagu Daerah Indonesia",
+                "url":"https://www.youtube.com/channel/UC1OqnHsb4ruhMdOV639I7aw"
+            },
+            "regions": ["Jawa Barat", "Jawa Timur"],
+            "anotationDate": "21-04-2020"
+        },
+        {
+            "video":
+            {
+                "title": "Ampar Ampar Pisang | Lagu Daerah Kalimantan Selatan | Budaya Indonesia | Dongeng Kita",
+                "url": "https://www.youtube.com/watch?v=BnBTFaHvI6I"
+            },
+            "channel":
+            {
+                "name":"Dongeng Kita",
+                "url":"https://www.youtube.com/channel/UCaMrqakJglh9VQItR50pQwA"
+            },
+            "regions": ["Kalimantan Selatan"],
+            "anotationDate": "14-06-2001"
+        },
+        {
+            "video":
+            {
+                "title": "APUSE | Lagu Daerah Papua | Budaya Indonesia | Dongeng Kita",
+                "url": "https://www.youtube.com/watch?v=VlyDN-yQMuk"
+            },
+            "channel":
+            {
+                "name":"Dongeng Kita",
+                "url":"https://www.youtube.com/channel/UCaMrqakJglh9VQItR50pQwA"
+            },
+            "regions": ["Papua"],
+            "anotationDate": "20-04-2040"
+        }
+    ]
+}
