@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -13,14 +13,6 @@
     <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Menu CSS -->
     <link href="plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet">
-    <!-- toast CSS -->
-    <link href="plugins/bower_components/toast-master/css/jquery.toast.css" rel="stylesheet">
-    <!-- morris CSS -->
-    <link href="plugins/bower_components/morrisjs/morris.css" rel="stylesheet">
-    <!-- chartist CSS -->
-    <link href="plugins/bower_components/chartist-js/dist/chartist.min.css" rel="stylesheet">
-    <link href="plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css"
-        rel="stylesheet">
     <!-- animation CSS -->
     <link href="css/animate.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -29,32 +21,10 @@
     <link href="css/colors/default.css" id="theme" rel="stylesheet">
 
     <link rel="icon" type="img/png" href="images/logo2.png" style="width: 100%;" />
-
-    <!-- <script src="jQuery-3.3.1/jquery-3.3.1.min.js"></script> -->
-    <!-- <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
-    <script src="js/jquery.slimscroll.js"></script>
-    <script src="js/waves.js"></script>
-    <script src="plugins/bower_components/waypoints/lib/jquery.waypoints.js"></script>
-    <script src="plugins/bower_components/counterup/jquery.counterup.min.js"></script>
-    <script src="plugins/bower_components/chartist-js/dist/chartist.min.js"></script>
-    <script src="plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
-    <script src="plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js"></script>
-    <script src="js/custom.min.js"></script>
-    <script src="js/dashboard1.js"></script>
-    <script src="plugins/bower_components/toast-master/js/jquery.toast.js"></script> -->
-
-    <!-- <script src="jQuery-3.3.1/jquery-3.3.1.min.js"></script> -->
-    <!-- <script src="canvasjs-2.3.2/jquery.canvasjs.min.js"></script> -->
-    <!-- <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
-    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script> -->
-    <!-- <script src="js/createChart.js"></script> -->
-    <!-- <script src="js/statistic.js"></script> -->
-    <!-- <script src="js/testChart.js"></script> -->
+    <![endif]-->
 </head>
-
-<body class="fix-header">
+<body>
+	<body class="fix-header">
     <!-- ============================================================== -->
     <!-- Preloader -->
     <!-- ============================================================== -->
@@ -89,8 +59,8 @@
                         <form>
                             <a href="https://mission-impossible-kel-3.github.io/siapa_kita/" target="_blank"
                                 class="btn btn-danger m-t-15 m-r-30"><i class="fa fa-bell fa-fw"
-                                    aria-hidden="true"></i>Mission
-                                Impossible</a>
+                                aria-hidden="true"></i>Mission
+                                Impossible</a></form>
                     </li>
 
                 </ul>
@@ -110,26 +80,29 @@
                             class="hide-menu">Navigation</span></h3>
                 </div>
                 <ul class="nav" id="side-menu">
-                    <li style="padding: 70px 0 0;">
-                        <a href="index.html" class="waves-effect"><i class="fa fa-pie-chart fa-fw"
-                                aria-hidden="true"></i>Dashboard</a>
-                    </li>
+                  <li style="padding: 70px 0 0;">
+                    <a href="index.html" class="waves-effect"
+                      ><i class="fa fa-fire fa-fw" aria-hidden="true"></i
+                      >Meteora</a
+                    >
+                  </li>
+                  <li>
+                    <a href="dashboard.html" class="waves-effect"
+                      ><i class="fa fa-pie-chart fa-fw" aria-hidden="true"></i>Dashboard</a
+                    >
+                  </li>
                     <li>
                         <a href="list-lagu.html" class="waves-effect"><i class="fa fa-music fa-fw"
-                                aria-hidden="true"></i>List Lagu</a>
-                    </li>
-                    <li>
-                        <a href="Meteora.html" class="waves-effect"><i class="fa fa-fire fa-fw"
-                                aria-hidden="true"></i>Meteora</a>
+                            aria-hidden="true"></i>List Lagu</a>
                     </li>
                     <li>
                         <a href="about.html" class="waves-effect"><i class="fa fa-user fa-fw"
                                 aria-hidden="true"></i>About Us</a>
                     </li>
+                    
 
                 </ul>
             </div>
-
         </div>
         <!-- ============================================================== -->
         <!-- End Left Sidebar -->
@@ -141,124 +114,60 @@
             <div class="container-fluid">
                 <div class="row bg-title">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h4 class="page-title">Dashboard</h4>
+                        <h4 class="page-title">Meteora</h4>
                     </div>
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                         <ol class="breadcrumb">
-                            <li><a href="#">Dashboard</a></li>
-                            <li class="active">Data</li>
+                            <li><a href="index.html">Dashboard</a></li>
+                            <li class="active">Meteora</li>
                         </ol>
                     </div>
-                    <!-- /.col-lg-12 -->
                 </div>
-                <!-- /.row -->
-                <!-- ============================================================== -->
-                <!-- Different data widgets -->
-                <!-- ============================================================== -->
-                <!-- .row -->
                 <div class="row">
-                    <div class="col-lg-4 col-sm-6 col-xs-12">
-                        <div class="white-box analytics-info">
-                            <h3 class="box-title">Jumlah Video</h3>
-                            <ul class="list-inline two-part">
-                                <li>
-                                    <div id="sparklinedash"></div>
-                                </li>
-                                <!-- Work soon (JS) -->
-                                <li class="text-right" id="numberOfVideosListIndex">
-                                    <i class="ti-arrow-up text-success"></i>
-                                    <!-- <span class="counter text-success" id="numberOfVideos">4</span> -->
-                                </li>
-                            </ul>
+                    <div class="col-sm-12">
+                        <div class="white-box" style="text-align: justify;">
+                            <h3 class="box-title">Apa itu Meteora ?</h3>
+                            <center><img src="images/big-logo.png" style="width: 500px;"></center>
+                            
+                            <h3>Pendahuluan</h3>
+                            <p>Indonesia merupakan negara dengan jumlah suku terbanyak di dunia. Berdasarkan sensus BPS tahun 2010, tercatat terdapat 300 kelompok etnik dan 1.340 suku bangsa di Indonesia. Tentu, dengan jumlah sebanyak ini akan melahirkan kebudayaan yang berbeda terutama Bahasa. Nyanyian atau Lagu adalah salah satu media yang melekat dengan kegiatan suku karena digunakan di berbagai aspek seperti upacara keagamaan, seremonial, atau sekedar hiburan. Muncullah yang namanya Lagu Daerah.
+                            Lagu Daerah merupakan lagu yang berasal dari daerah tertentu dengan menggunakan bahasa lokal. Dengan jumlah suku di Indonesia yang banyak, akan banyak juga jumlah Lagu Daerah. Sayangnya, tidak ada fasilitas atau sarana untuk mengenali Lagu Daerah ini. Apalagi generasi sekarang yang sudah diserbu budaya Bangsa Asing yang lebih menarik, semakin menyurutkan rasa ingin mendalami Lagu Daerah ini. 
+                            Lagu daerah juga tercipta karena lingkungan hidup dan adat istiadat yang ada, lagu daerah memiliki ciri khas yaitu sederhana dalam pembuatan lagunya, tidak diketahui siapa penciptanya, mengandung nilai nilai kehidupan, keasrian lingkungan sekitar, unsur unsur kebersamaan, dan biasanya sulit dinyanyikan oleh orang yang bukan berasal dari daerah tersebut karena lagu daerah biasanya menggunakan bahasa dari daerah dimana lagu tersebut diciptakan, dan Indonesia memiliki banyak sekali bahasa daerah.
+                            Penamaan dari web yang kami ciptakan adalah meteora, meteora sendiri adalah suatu kompleks biara terbesar dan paling penting di yunani, dan meteora sendiri adalah situs warisan UNESCO dengan demikian dinamakan meteora karena kami berharap web ini bisa menjadi  warisan yang akan di wariskan kepada penerus bangsa karena lagu daerah adalah salah satu warisan dari nenek moyang kita, kami berharap dengan adanya web meteora ini dapat membuat para penerus bangsa bangga dengan lagu lagu daerah indonesia, dan juga tidak melupakan lagu daerahnya masing masing sebagai warisan sejak dahulu kala
+                            Oleh karena itu, kami membuat Sequencing dan Klasifikasi Lagu-Lagu Daerah ini untuk menjawab tantangan yang dialami oleh Lagu-Lagu Daerah supaya bersaing dengan Lagu-Lagu Modern maupun Lagu-Lagu dari budaya Asing. Dengan adanya applikasi ini, diharapkan masyarakat dapat mengenal Lagu-Lagu Daerah yang ada di Indonesia karena sudah diklasifikasikan sesuai kelompoknya dan mau melestarikannya.
+                            </p>
+
+                            <p><b>Meteora</b> sendiri adalah web yang berisi kumpulan beberapa lagu daerah dari sabang hingga merauke yang kami masukan hingga +140 lagu. Meteora merupakan hasil kerja mahasiswa <b>Politeknik Negeri Bandung</b> prodi Teknik Informatika D4 dari kelompok Mission Impossible yang beranggotakan Muhammad Sakhi Hartanto selaku ketua dari kelompok, Mizan nur Qalam selaku analyst, Afdal Ramdan Daman huri selaku designer, Reynaldi Rizki selaku developer 1, dan Muhammad Hargi Muttaqin selaku developer 2. Web ini masih jauh dari sempurna hingga kami akan terus melakukan perkemabngan di Web ini</p>
+                            <br><h3>Sumber Data Yang digunakan</h3>
+                            <p>Sumber data yang digunakan untuk anotasi ini adalah dari <b>YouTube</b>, yaitu dengan melakukan pencarian “Lagu daerah Indonesia” kemudian memilih filter durasi video <= 4 menit agar setiap video yang ditampilkan merupakan video dengan 1 lagu saja, bukan kompilasi lagu daerah. Lalu, dilakukan web scraping sebanyak lebih dari 100 video dari YouTube untuk diambil beberapa data. Rencananya, akan diambil data berupa judul video, link video, channel YouTube, dan tanggal upload dari video tersebut.
+                            Setelah web scraping berhasil dilakukan, link yang didapatkan dari video tersebut digunakan untuk melakukan download lagu daerah dengan format mp3. Untuk melakukan hal tersebut, akan dilakukan download secara otomatis dengan webdriver chrome dan masuk ke website https://ytmp3.cc/en13/.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 col-xs-12">
-                        <div class="white-box analytics-info">
-                            <h3 class="box-title">Jumlah Channel</h3>
-                            <ul class="list-inline two-part">
-                                <li>
-                                    <div id="sparklinedash2"></div>
-                                </li>
-                                <!-- Work soon (JS) -->
-                                <li class="text-right" id="numberOfChannelsListIndex">
-                                    <i class="ti-arrow-up text-purple"></i>
-                                    <!-- <span class="counter text-purple">30</span> -->
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 col-xs-12">
-                        <div class="white-box analytics-info">
-                            <h3 class="box-title">Jumlah Provinsi</h3>
-                            <ul class="list-inline two-part">
-                                <li>
-                                    <div id="sparklinedash3"></div>
-                                </li>
-                                <!-- Work soon (JS) -->
-                                <li class="text-right" id="numberOfRegionsListIndex">
-                                    <i class="ti-arrow-up text-info"></i>
-                                    <!-- <span class="counter text-info">42</span> -->
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--/.row -->
-                <!--row -->
-                <!-- /.row -->
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="col-sm-12">
                         <div class="white-box">
-                            <h3 class="box-title">Asal Daerah Lagu</h3>
-                            <div id="chartContainer" style="height: 370px; max-width: 1000px; margin: 0px auto;"></div>
+                            <h3 class="box-title">Politeknik Negeri Bandung</h3>
+                            <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1980.5770907276014!2d107.57269424821787!3d-6.872122180989972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e420abc30acf%3A0x10569255865460a5!2sPoliteknik%20Negeri%20Bandung!5e0!3m2!1sid!2sid!4v1590082128123!5m2!1sid!2sid" width="922" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></center>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- /.container-fluid -->
-            <footer class="footer text-center"> 2020 &copy; Mission Impossible </footer>
+
+<footer class="footer text-center"> 2020 &copy; Mission Impossible </footer>
         </div>
-        <!-- ============================================================== -->
-        <!-- End Page Content -->
-        <!-- ============================================================== -->
+        <!-- /#page-wrapper -->
     </div>
-    <!-- ============================================================== -->
-    <!-- End Wrapper -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- All Jquery -->
-    <!-- ============================================================== -->
-    <!-- <script src="jQuery-3.3.1/jquery-3.3.1.min.js"></script> -->
-
-
-    <script type="text/javascript">
-        window.onload = function () {
-
-        }
-    </script>
-
+    <!-- /#wrapper -->
+    <!-- jQuery -->
     <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="canvasjs-2.3.2/canvasjs.min.js"></script>
-    <script src="js/createChart.js"></script>
+    <!-- Bootstrap Core JavaScript -->
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Menu Plugin JavaScript -->
     <script src="plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
+    <!--slimscroll JavaScript -->
     <script src="js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
     <script src="js/waves.js"></script>
-    <script src="plugins/bower_components/waypoints/lib/jquery.waypoints.js"></script>
-    <script src="plugins/bower_components/counterup/jquery.counterup.min.js"></script>
-    <script src="plugins/bower_components/chartist-js/dist/chartist.min.js"></script>
-    <script src="plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
-    <script src="plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <!-- Custom Theme JavaScript -->
     <script src="js/custom.min.js"></script>
-    <script src="js/dashboard1.js"></script>
-    <script src="plugins/bower_components/toast-master/js/jquery.toast.js"></script>
-
-
-    <!-- <script src="canvasjs-2.3.2/canvasjs.min.js"></script> -->
-
-    <!-- <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
-    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script> -->
-    <!-- <script src="js/createChart.js"></script> -->
 </body>
-
 </html>

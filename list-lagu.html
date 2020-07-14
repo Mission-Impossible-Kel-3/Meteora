@@ -1,38 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="plugins/images/favicon.png"
+    />
+    <title>List Lagu</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Menu CSS -->
+    <link
+      href="plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css"
+      rel="stylesheet"
+    />
+    <!-- animation CSS -->
+    <link href="css/animate.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- color CSS -->
+    <link href="css/colors/default.css" id="theme" rel="stylesheet" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <link rel="icon" type="image/png" sizes="16x16" href="plugins/images/favicon.png" />
-  <title>List Lagu</title>
-  <!-- Bootstrap Core CSS -->
-  <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <!-- Menu CSS -->
-  <link href="plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet" />
-  <!-- animation CSS -->
-  <link href="css/animate.css" rel="stylesheet" />
-  <!-- Custom CSS -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- color CSS -->
-  <link href="css/colors/default.css" id="theme" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="img/png"
+      href="images/logo2.png"
+      style="width: 100%;"
+    />
+    <![endif]-->
 
-  <link rel="icon" type="img/png" href="images/logo2.png" style="width: 100%;" />
-  <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="DataTables/DataTables-1.10.21/css/dataTables.bootstrap4.min.css"/>
-    <link rel="stylesheet" type="text/css" href="DataTables/DataTables-1.10.21/css/jquery.dataTables.min.css"/>
-    
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="DataTables/DataTables-1.10.21/css/dataTables.bootstrap4.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="DataTables/DataTables-1.10.21/css/jquery.dataTables.min.css"
+    />
   </head>
 
   <body class="fix-header">
     <!-- ============================================================== -->
     <!-- Preloader -->
     <!-- ============================================================== -->
-    
+
     <!-- ============================================================== -->
     <!-- Wrapper -->
     <!-- ============================================================== -->
@@ -55,7 +74,7 @@
                   src="images/logo.png"
                   alt="home"
                   class="light-logo text-center"
-                  style="margin-left:10%;"
+                  style="margin-left: 10%;"
                 />
               </span>
             </a>
@@ -64,10 +83,13 @@
           <ul class="nav navbar-top-links navbar-right pull-right">
             <li>
               <form>
-                <a href="https://mission-impossible-kel-3.github.io/siapa_kita/" target="_blank"
-                                class="btn btn-danger m-t-15 m-r-30"><i class="fa fa-bell fa-fw"
-                                aria-hidden="true"></i>Mission
-                                Impossible</a>
+                <a
+                  href="https://mission-impossible-kel-3.github.io/siapa_kita/"
+                  target="_blank"
+                  class="btn btn-danger m-t-15 m-r-30"
+                  ><i class="fa fa-bell fa-fw" aria-hidden="true"></i>Mission
+                  Impossible</a
+                >
               </form>
             </li>
           </ul>
@@ -83,29 +105,38 @@
       <div class="navbar-default sidebar" role="navigation">
         <div class="sidebar-nav slimscrollsidebar">
           <div class="sidebar-head">
-              <h3><span class="fa-fw open-close"><i class="ti-close ti-menu"></i></span> <span
-                      class="hide-menu">Navigation</span></h3>
+            <h3>
+              <span class="fa-fw open-close"
+                ><i class="ti-close ti-menu"></i
+              ></span>
+              <span class="hide-menu">Navigation</span>
+            </h3>
           </div>
           <ul class="nav" id="side-menu">
-              <li style="padding: 70px 0 0;">
-                  <a href="index.html" class="waves-effect"><i class="fa fa-pie-chart fa-fw"
-                          aria-hidden="true"></i>Dashboard</a>
-              </li>
-              <li>
-                  <a href="list-lagu.html" class="waves-effect"><i class="fa fa-music fa-fw"
-                          aria-hidden="true"></i>List Lagu</a>
-              </li>
-              <li>
-                  <a href="Meteora.html" class="waves-effect"><i class="fa fa-fire fa-fw"
-                          aria-hidden="true"></i>Meteora</a>
-              </li>
-              <li>
-                  <a href="about.html" class="waves-effect"><i class="fa fa-user fa-fw"
-                          aria-hidden="true"></i>About Us</a>
-              </li>
-              
+            <li style="padding: 70px 0 0;">
+              <a href="index.html" class="waves-effect"
+                ><i class="fa fa-fire fa-fw" aria-hidden="true"></i
+                >Meteora</a
+              >
+            </li>
+            <li>
+              <a href="dashboard.html" class="waves-effect"
+                ><i class="fa fa-pie-chart fa-fw" aria-hidden="true"></i>Dashboard</a
+              >
+            </li>
+            <li>
+              <a href="list-lagu.html" class="waves-effect"
+                ><i class="fa fa-music fa-fw" aria-hidden="true"></i>List
+                Lagu</a
+              >
+            </li>
+            <li>
+              <a href="about.html" class="waves-effect"
+                ><i class="fa fa-user fa-fw" aria-hidden="true"></i>About Us</a
+              >
+            </li>
           </ul>
-      </div>
+        </div>
       </div>
       <!-- ============================================================== -->
       <!-- End Left Sidebar -->
@@ -133,7 +164,7 @@
               <div class="white-box">
                 <h3 class="box-title">Basic Table</h3>
                 <div class="table-responsive">
-                  <table id="example" class="stripe" style="width:100%">
+                  <table id="example" class="stripe" style="width: 100%;">
                     <thead>
                       <tr>
                         <th>Judul Video</th>
@@ -142,8 +173,7 @@
                         <th>Tanggal Anotasi</th>
                       </tr>
                     </thead>
-                    <tbody>
-                    </tbody>
+                    <tbody></tbody>
                   </table>
                 </div>
               </div>
@@ -160,12 +190,17 @@
     </div>
     <!-- /#wrapper -->
     <!-- jQuery -->
-    
+
     <script src="plugins/bower_components/jquery/dist/jquery.min.js"></script>
 
-    <script type="text/javascript" src="DataTables/DataTables-1.10.21/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="DataTables/DataTables-1.10.21/js/dataTables.bootstrap4.min.js"></script>
-    
+    <script
+      type="text/javascript"
+      src="DataTables/DataTables-1.10.21/js/jquery.dataTables.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="DataTables/DataTables-1.10.21/js/dataTables.bootstrap4.min.js"
+    ></script>
 
     <script type="text/javascript" src="js/table.js"></script>
     <!-- Bootstrap Core JavaScript -->
